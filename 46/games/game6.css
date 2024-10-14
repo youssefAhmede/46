@@ -1,0 +1,16 @@
+body {
+    height: auto;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background: black;
+
+  }
+  
+  #mycanvas {
+    background-color: black;
+    /* margin-top: 5rem; */
+    width: 100%;
+    height: 100%;
+  }

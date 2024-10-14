@@ -1,0 +1,65 @@
+/* هذه الصفحة تخص صفحة الازكار او القران */
+
+body{
+    background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=4uRsAGr0&id=72E9275B7E70FF8EAAD9547BD36FC0CE7EDA5456&thid=OIF.Bvgm1csK4WNnCZQscVgiMQ&mediaurl=https%3a%2f%2fhalasaudia.com%2fwp-content%2fuploads%2f2024%2f03%2f%d8%ae%d9%84%d9%81%d9%8a%d8%a7%d8%aa-%d8%b1%d9%85%d8%b6%d8%a7%d9%86-%d9%81%d8%ae%d9%85%d8%a9-2024-%d9%88%d8%aa%d8%b5%d9%85%d9%8a%d9%85%d8%a7%d8%aa-%d8%ad%d8%af%d9%8a%d8%ab%d8%a9-%d9%84%d9%84%d8%ac%d9%88%d8%a7%d9%84-%d9%88%d8%a7%d9%84%d9%83%d9%85%d8%a8%d9%8a%d9%88%d8%aa%d8%b154.webp&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.e2e46c006af4dfd5f714fd8b21d4bff2%3frik%3d%26pid%3dImgRaw%26r%3d0&exph=500&expw=800&q=%d8%ae%d9%84%d9%81%d9%8a%d8%a9+%d8%b1%d9%85%d8%b6%d8%a7%d9%86&simid=6953740174092&FORM=IRPRST&ck=06F826D5CB0AE1636709942C71582231&selectedIndex=70&itb=0&ajaxhist=0&ajaxserp=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: #5448d6;
+    color: #5448d6; */
+}
+.nav-link:hover{
+    color:#66acc7 !important;
+}
+.nav-small-title{
+    display: none;
+  }
+  @media (max-width: 630px) {
+    .nav-big-title{
+      display: none;
+    }
+    .nav-small-title{
+      display: contents;
+    }
+  }
+
+  .azkar-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+.azkar-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(28, 23, 23, 0.5);
+    transition: transform 0.3s ease;
+    text-align: right;
+}
+.azkar-item:hover {
+    transform: translateY(-5px);
+}
+.azkar-item p {
+    font-size: 18px;
+    color: #333;
+}
+.counter {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #736e6e;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #fff;
+    color: #384848;
+}
+.counter:hover {
+    background-color: #e1e1e1;
+}
+.quran-content {
+    display: none;
+}

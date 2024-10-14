@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    padding-top: 0rem;
+    /* width: auto; */
+    /* height: auto; */
+
+    /* max-width: 10px; */
+  }
+  #mycanvas {
+    /* background: red;  */
+    margin-top: 0rem;
+    max-width: 100%;
+    max-height: auto;
+    /* height: 50vb; */
+  }
